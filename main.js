@@ -38,7 +38,7 @@ window.addEventListener('load', () => {
         })
     })
   } else {
-    console.log('Allow Location')
+    alert('Allow Location')
   }
   function setIcons (icon, iconId) {
     const skycons = new Skycons({ color: 'white' })
